@@ -1,0 +1,12 @@
+<app-header></app-header>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="left-menu" [ngClass]="{'col-sm-3 col-md-2': leftMenuIsVisible}">
+      <app-left-menu></app-left-menu>
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-offset-2">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

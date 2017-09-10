@@ -1,0 +1,41 @@
+<div class="container-fluid ko-login-form-container">
+
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4">
+      <div class="panel panel-default">
+        <div class="panel-body">
+
+          <h2>Login</h2>
+          <form (ngSubmit)="onSubmit()">
+            <div class="alert alert-danger" role="alert" *ngIf="errorMessage">
+              <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+              <span class="sr-only">Error:</span>
+              {{errorMessage}}
+            </div>
+
+            <div class="form-group" [ngClass]="{'has-error': errorMessage}">
+              <label for="login-form-user">Email address</label>
+              <input type="text" class="form-control" id="login-form-user"
+                     placeholder="User" name="user" [(ngModel)]="user">
+            </div>
+            <div class="form-group" [ngClass]="{'has-error': errorMessage}">
+              <label for="login-form-password">Password</label>
+              <input type="password" class="form-control" id="login-form-password"
+                     placeholder="Password" name="password" [(ngModel)]="password">
+            </div>
+            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="ko-login-form-footer text-right">
+        <a href="#">Sign up</a>
+        <a href="#">Forgot password</a>
+      </div>
+
+
+    </div>
+  </div>
+
+
+</div>
+

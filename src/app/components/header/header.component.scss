@@ -1,0 +1,17 @@
+@import '../../../assets/css/vars';
+
+.navbar-inverse {
+  background-image: none;
+  margin-bottom: 0;
+
+  .navbar-nav {
+    > li {
+      > a {
+        &.user-menu-handler {
+          font-size: 27px;
+          padding: 11px;
+        }
+      }
+    }
+  }
+}

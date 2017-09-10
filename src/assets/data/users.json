@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "victor",
+      "user": "tvicpe",
+      "phone": "06999999"
+    },
+    {
+      "id": 2,
+      "name": "sergiu",
+      "user": "stx",
+      "phone": "06999999"
+    },
+    {
+      "id": 3,
+      "name": "ion",
+      "user": "TTiiPP",
+      "phone": "06999999"
+    }
+  ]
+}

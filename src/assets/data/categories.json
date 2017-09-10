@@ -1,0 +1,53 @@
+{
+  "status": true,
+  "data": [
+    {
+      "id": 1,
+      "label": "Users",
+      "action": "users",
+      "icon": "fa-users",
+      "selectedIcon": "fa-users"
+    },
+    {
+      "id": 2,
+      "label": "Favourites",
+      "action": "favourites",
+      "icon": "fa-star",
+      "selectedIcon": "fa-star-o"
+    },
+    {
+      "id": 3,
+      "label": "Schemas",
+      "action": "schemas",
+      "icon": "fa-cubes",
+      "selectedIcon": "fa-cubes"
+    },
+    {
+      "id": 4,
+      "label": "Games",
+      "action": "games",
+      "icon": "fa-gamepad",
+      "selectedIcon": "fa-gamepad",
+      "parent": 3
+    },
+    {
+      "id": 5,
+      "label": "Contacts",
+      "action": "contacts",
+      "icon": "fa-address-book",
+      "selectedIcon": "fa-address-book-o",
+      "parent": 3
+    },
+    {
+      "id": 6,
+      "link": 4,
+      "parent": 2
+    },
+    {
+      "id": 7,
+      "link": 5,
+      "parent": 2
+    }
+  ]
+}
+
